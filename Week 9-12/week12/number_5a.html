@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Exercise 5 (a) </title>
+</head>
+<body>
+<form>
+    Enter a value <input type="text" id="fname" ><br><br>
+     <input type="button" id="btnSubmit" value="Submit" onclick="return Validate()" />
+</form>
+<script type="text/javascript">
+    function Validate()
+    {
+        var type = document.getElementById("fname").value;
+        if ( isNaN(type))
+        {
+            alert("It is not a number")
+            return false
+        }
+        else
+        {
+        alert("Its a number")
+      
+        }
+    }
+
+</script>
+</body>
+</html>

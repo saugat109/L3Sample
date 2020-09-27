@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marksheet</title>
+</head>
+<script>
+var marks=parseFloat(prompt("Enter marks: "));
+document.write("Entered Marks: "+marks+"<br>");
+console.log("Entered Marks: "+marks);
+if(marks>=80&&marks<=100)
+{
+document.write("You passed with Distinction.")
+}
+else if(marks>=60&&marks<80)
+{
+document.write("You passed with First Division.")
+}
+else if(marks>=50&&marks<60)
+{
+document.write("You passed with Second Division.")
+}
+
+else if(marks>=40&&marks<50)
+{
+document.write("You passed with Third Division.")
+}
+else
+{
+document.write("Your failed.")
+}
+</script>
+
+</html>
